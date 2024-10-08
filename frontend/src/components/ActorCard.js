@@ -7,7 +7,7 @@ const ActorCard = () => {
 
     // Fetch actor data from backend
     useEffect(() => {
-        fetch("http://localhost:7000") // Adjust the API route as per your backend
+        fetch("https://moviesjsd.onrender.com") // Adjust the API route as per your backend
             .then(response => response.json())
             .then(data => setActors(data))
             .catch(error => console.error('Error fetching actors:', error));
