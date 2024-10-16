@@ -7,7 +7,7 @@ const ActorTable = () => {
 
     
     useEffect(() => {
-        fetch("https://moviesgf.onrender.com/") 
+        fetch("https://moviesbaccckk.onrender.com/") 
             .then(response => response.json())
             .then(data => setActors(data))
             .catch(error => console.error('Error fetching actors:', error));
